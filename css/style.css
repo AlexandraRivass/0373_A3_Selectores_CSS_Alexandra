@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+/* REGLA 1. Utilizar el selector universal * para cambiar el tipo de fuente del documento */
+* {
+    font-family: "Roboto", sans-serif; /* estilo de letra */
+}
+
+/* REGLA 2. El elemento body tendrá margen 0 y relleno de 20% únicamente a la derecha y izquierda */
+body {
+    margin: 0; /* espacio afuera de la caja*/    
+    margin-right: 20%; /* margin derecha de 20% */
+    margin-left: 20%;   /* margin izquierda de 20% */
+}
+
+/* REGLA 3. Los elementos h1 estarán subrayados (text-decoration: underline;), de color darkcyan y alineados al centro */
+h1 {
+    text-decoration: underline; /* Esto quita la lineas de subrayado  de los links */
+    color: darkcyan; /* Color de la letra */
+    text-align: center; /* Es texto centrado */
+}
+
+/* REGLA 4. Los elementos con clase selector tendrán color lightcyan */
+.selector {
+    color: lightcyan; /* Color de la letra */
+
+}
+
+/* REGLA 5. Los elementos con clase selectors tendrán un relleno de 5%, un border: solid darkcyan 1px; y esquinas redondeadas border-radius con valor de 5px */
+.selectors{
+    padding: 5%; /* relleno del elemento */
+    border: solid darkcyan 1px; /* borde del elemento */
+    border-radius: 5px; /* borde redondeado */
+}   
+
+/* REGLA 6. Los elementos con identificador (id) universal tendrán color lightgoldenrodyellow */
+#universal {
+    color: lightgoldenrodyellow; /* Color de la letra */
+}
+
+/* REGLA 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px */
+h2.selector,
+h2#universal  {
+    background-color: darkcyan; /*  Color de fondo */
+    padding: 1%; /* relleno del elemento */
+    border-radius: 5px; /* borde redondeado */
+}
+/* REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco */
+span {
+    font-weight: 900; /* Tamaño de fuente */
+    background-color: black; /* Color de fondo */
+    color: white; /* Color de texto */
+}
+
+/* REGLA 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none */
+
+li a {
+    text-decoration: none; /* Esto quita la lineas de subrayado  de los links */
+}
+
+/* REGLA 10. Los elementos h3 tendrán color de fondo background-color: rgba(0, 139, 139, 0.529);, relleno de 0.5px y esquinas redondeadas con valor de 5px */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529); /* Color de fondo */
+    padding: 0.5px; /* relleno del elemento */
+    border-radius: 5px; /* borde redondeado */
+}
+
+/* REGLA 11. Los elementos div que sean descendientes de un elemento con id "gallery" tendrán un ancho width de 100% */
+#gallery div {
+    width: 100%; /* ancho del elemento */
+}
+/* REGLA 12. Los elementos img tendrán un ancho width de 100%, un border: solid darkcyan 1px; y esquinas redondeadas con valor de 5px */
+img {
+    width: 100%; /* ancho del elemento */
+    border: solid darkcyan 1px; /* borde del elemento y color*/
+    border-radius: 5px; /* borde redondeado */
+}
+.contorno {
+    border: solid darkcyan 1px; /* borde del elemento y color*/
+    border-radius: 5px;
+
+}
+
+/* Contenedor de la tabla */
+table {
+    border: 1px solid #bcbdbd;  /* color del borde azul/verdoso */
+    border-radius: 10px !important;
+    padding: 5px;
+    width: 99%;
+    border: 1px solid black;
+    margin: 6px auto; /* 50px de separación arriba y abajo, auto a los lados */
+
+}
+
+/* Tabla */
+.selector-table {
+    border-collapse: collapse;
+    text-align: left;
+}
+
+/* Encabezados */
+.selector-table th {
+    background-color: #FFFFFF;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Celdas */
+.selector-table td {
+    padding: 12px;
+}
+
+/* Filas grises (exacto color de la imagen) */
+.filagris {
+    background-color: #E8E9EB;
+}
+
+
+
+
+
+
+
+
