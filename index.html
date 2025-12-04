@@ -12,37 +12,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <!--Enlace al favicon-->
-    <link rel="icon" href="./imagenes/favicon-pencil.svg" type="image/svg+xml">
+    <link rel="icon" href="./imagenes/alarm-clock-solid.svg" type="image/svg+xml">
 
 </head>
 
+<!-- REGLA 1. Utilizar el selector universal * para cambiar el tipo de fuente del documento  -->
+<!-- REGLA 2. El elemento body tendrá margen 0 y relleno de 20% únicamente a la derecha y izquierda -->
+
 <body>
+
+<!-- REGLA 3. Los elementos h1 estarán subrayados (text-decoration: underline;), de color darkcyan y alineados al centro -->
     <h1>CSS Selectors</h1><!--Titulo principal-->
     <p>A CSS selector selects the HTML element(s) you want to style.</p>
     <!-- DIV - Sirve para agrupar elementos en un contenedor -->
+    
+<!-- REGLA 5. Los elementos con clase selectors tendrán un relleno de 5%, un border: solid darkcyan 1px; y esquinas redondeadas border-radius con valor de 5px -->
     <div class="selectors">
         <h2>CSS Selectors</h2> <!-- Como un subtitulo mas pequeño que h1-->
         <p>CSS selectors are used to "find" (or select) the HTML elements you want to style.</p>
         <p>We can divide CSS selectors into five categories:</p>
         <ul><!--Lista desordenada-->
             <li>Simple selectors (select elements based on name, id, class)</li>
+
+            <!-- REGLA 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none -->
             <li> <!--Elemento de lista-->
                 <a href="https://www.w3schools.com/css/css_combinators.asp"> <!--a href- Sirve es un elemento de enlace-->
                     Combinator selectors 
                 </a> (select elements based on a specific relationship between them)</li>
 
+            <!-- REGLA 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none -->
             <li> <!--Elemento de lista-->
                 <a href="https://www.w3schools.com/css/css_pseudo_classes.asp"> <!--a href- Sirve es un elemento de enlace-->
                     Pseudo-class selectors
                 </a> (select elements based on a certain state)
             </li>
-
+            
+            <!-- REGLA 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none -->
             <li> <!--Elemento de lista-->
                 <a href="https://www.w3schools.com/css/css_pseudo_elements.asp"><!--a href- Sirve es un elemento de enlace-->
                     Pseudo-elements selectors
                 </a> (select and style a part of an element)
             </li>
 
+            <!-- REGLA 9. Los elementos a que sean hijos directos de algún li tendrán text-decoration: none -->
             <li>    <!--Elemento de lista-->
                 <a href="https://www.w3schools.com/css/css_attribute_selectors.asp">
                     Attribute selectors
@@ -52,11 +64,20 @@
     <hr><!-- hr - Funcionalidad de separación (linea horizontal)-->
     <!-- SPAN - Sirve para encerrar texto o elementos en línea -->
     <!-- class - se usa para marcar uno o varios elementos que comparten el mismo estilo o función. -->
+
+<!-- REGLA 4. Los elementos con clase selector tendrán color lightcyan -->
+<!-- REGLA 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px -->
+<!-- REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>element</span> Selector</h2>
     <p>The element selector selects HTML elements based on the element <span>name</span> (body, p, h1, h5, a, div, etc.).</p>
 
     <hr><!-- hr - Funcionalidad de separación (linea horizontal)-->
     <!-- SPAN - Sirve para encerrar texto o elementos en línea -->
+    
+
+<!-- REGLA 4. Los elementos con clase selector tendrán color lightcyan -->
+<!-- REGLA 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px -->
+<!-- REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>id</span> Selector</h2>
     <p>The id selector uses the id attribute of an HTML element to select a specific element.</p>
     <p>The id of an element is unique within a page, so the id selector is used to select one unique element!</p>
@@ -64,14 +85,23 @@
 
     <hr><!-- hr - Funcionalidad de separación (linea horizontal)-->
     <!-- SPAN - Sirve para encerrar texto o elementos en línea -->
+    
+<!-- REGLA 4. Los elementos con clase selector tendrán color lightcyan -->
+<!-- REGLA 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px -->
+<!-- REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco -->
     <h2 class="selector">The CSS <span>class</span> Selector</h2>
     <p>The class selector selects HTML elements with a specific class attribute.</p>
     <p>To select elements with a specific class, write a period <span>(.)</span> character, followed by the class name.</p>
     <hr><!--Funcionalidad de separación (linea horizontal)-->
 
-    <!-- SPAN - Sirve para encerrar texto o elementos en línea -->
-    <h2 id="universal">The CSS <span>Universal</span> Selector</h2>
+
+<!-- REGLA 6. Los elementos con identificador (id) universal tendrán color lightgoldenrodyellow -->
+<!-- REGLA 7. Los elementos h2 con clase selector y los elementos h2 con identificador (id) universal tendrán color de fondo darkcyan, relleno de 1% y esquinas redondeadas con valor de 5px -->
+<!-- REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco -->
+    <h2 id="universal">The CSS <span>Universal</span> Selector</h2><!-- SPAN - Sirve para encerrar texto o elementos en línea -->
     <!-- Una id es un atributo que le das a un elemento para identificarlo de manera única en la página. -->
+
+<!-- REGLA 8. Los elementos span tendrán font-weight: 900; color de fondo negro y color de texto blanco -->
     <p>The universal selector <span>(*)</span> selects all HTML elements on the page.</p>
 
     <!-- DIV - Sirve para agrupar elementos en un contenedor -->
@@ -80,13 +110,19 @@
     </div>
     <hr>
 
+<!-- REGLA 11. Los elementos div que sean descendientes de un elemento con id "gallery" tendrán un ancho width de 100% -->
     <div id="gallery"><!-- Una id es un atributo que le das a un elemento para identificarlo de manera única en la página. -->
         <div>
+            <!-- REGLA 10. Los elementos h3 tendrán color de fondo background-color: rgba(0, 139, 139, 0.529);, relleno de 0.5px y esquinas redondeadas con valor de 5px -->
             <h3>CSS Syntax</h3>
+
+<!-- REGLA 12. Los elementos img tendrán un ancho width de 100%, un border: solid darkcyan 1px; y esquinas redondeadas con valor de 5px -->
+
             <img src="./imagenes/regla_css.jpg" alt=""> <!-- IMG - Sirve para insertar una imagen en un sitio web -->
         </div>
         <div>
             <h3>All CSS Simple Selectors</h3>
+            <!-- BONUS TABLA -->
                 <div class="contorno"><!-- DIV - Sirve para agrupar elementos en un contenedor -->
                     <table class="selector-table"> <!-- TABLE - Sirve para agrupar elementos en una tabla -->
 
