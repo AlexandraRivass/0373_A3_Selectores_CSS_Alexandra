@@ -77,47 +77,52 @@ img {
 }
 
 
+
+
 /*BONUS TABLA*/
 .contorno {
     border: solid darkcyan 1px; /* borde del elemento y color*/
     border-radius: 5px;
-
 }
 
 /* Contenedor de la tabla */
 table {
     border: 1px solid #bcbdbd;  /* color del borde azul/verdoso */
     border-radius: 10px !important;
-    padding: 5px;
+    padding: 5px; /*espacio entre bordes y contenido*/
     width: 99%;
     border: 1px solid black;
     margin: 6px auto; /* 50px de separación arriba y abajo, auto a los lados */
-
 }
 
 /* Tabla */
 .selector-table {
-    border-collapse: collapse;
-    text-align: left;
+    border-collapse: collapse; 
+    text-align: left;  /* alineación de texto */
 }
 
 /* Encabezados */
 .selector-table th {
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* color de fondo */
     padding: 12px;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 /* Celdas */
 .selector-table td {
     padding: 12px;
+    font-size: 22px; /* tamaño de fuente */
 }
 
 /* Filas grises (exacto color de la imagen) */
 .filagris {
-    background-color: #E8E9EB;
+    background-color: #E8E9EB; /* color gris */
 }
 
+.subrayados {
+    text-decoration: underline; /* pone las lineas */
+    font-style: italic; /* cursiva*/
+}
 
 
 
